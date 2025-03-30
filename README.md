@@ -13,10 +13,11 @@
 ```sudo bash brightness 0.5```
 
 <br>
-<b>Set your computer's clock using the time returned by Google's page header:</b>
+<b>Setting your computer's time:</b>
+<br>
+<i>Set your computer's clock using the current time returned by Google's page tags:</i>
 
 ```sudo date -s "$(wget -qSO- --max-redirect=0 google.com 2>&1 | grep Date: | cut -d' ' -f5-8)Z";```
-
-<b>Update the hardware clock to match the system time:</b>
+<i>Update the hardware clock to match the system time:</i>
 <br>
 ```sudo hwclock -w;```
