@@ -18,6 +18,14 @@
 <i>Set your computer's clock using the current time returned by Google's page tags:</i>
 
 ```sudo date -s "$(wget -qSO- --max-redirect=0 google.com 2>&1 | grep Date: | cut -d' ' -f5-8)Z";```
+<br>
 <i>Update the hardware clock to match the system time:</i>
 <br>
 ```sudo hwclock -w;```
+
+
+
+<br>
+<b>tcpdump capturing on default interface:</b>
+<br>
+```sudo tcpdump --immediate-mode -A -vv -XX >> tcpdump.txt```
