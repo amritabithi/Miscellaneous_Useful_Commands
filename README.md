@@ -28,4 +28,4 @@
 <br>
 <b>tcpdump capturing on default interface:</b>
 <br>
-```sudo tcpdump --immediate-mode -A -vv -XX >> tcpdump.txt```
+<code>sudo tcpdump --immediate-mode -A -vv -XX >> tcpdump.txt</code>
