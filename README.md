@@ -1,7 +1,6 @@
 # Miscellaneous Useful Commands
 ### These are some commands which are useful but do not deserve a dedicated repository.
 <br>
-<br>
 <b>Change your monitor's screen brightness using a shell script:</b>
 <br>
 <i>Shell script contents:</i><br>
